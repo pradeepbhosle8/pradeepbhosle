@@ -1,0 +1,64 @@
+{
+    "products":[
+        {
+            "title":"Man Causla Shoes",
+            "Price":"2000.99",
+            "image":"./assets/imges/pic1.png",
+            "category":"featured"
+        },
+        {
+            "title":"Woman Shoes",
+            "Price":"1500.00",
+            "image":"./assets/imges/pic2.png",
+            "category":"trend"
+        },
+        {
+            "title":"Office Bag",
+            "Price":"900.00",
+            "image":"./assets/imges/pic3.png",
+            "category":"featured"
+        },
+        {
+            "title":"Man Causal Shirts",
+            "Price":"1000.00",
+            "image":"./assets/imges/pic4.png",
+            "category":"trend"
+        },
+        {
+            "title":"School Bags",
+            "Price":"850.00",
+            "image":"./assets/imges/pic5.png",
+            "category":"featured"
+        },
+        {    "title":"Causal shoes",
+            "Price":"1200.00",
+            "image":"./assets/imges/pic6.png",
+            "category":"recent"
+        },
+        {
+            "title":"School Bag",
+            "Price":"900.00",
+            "image":"./assets/imges/pic7.png",
+            "category":"recent"
+        },
+        {
+            "title":"Sports Shoes",
+            "Price":"1400.00",
+            "image":"./assets/imges/pic8.png",
+            "category":"trend"
+        },
+        {
+            "title":"Woman Shoes",
+            "Price":"800.00",
+            "image":"./assets/imges/pic9.png",
+            "category":"featured"
+        },
+        {
+            "title":"Woman Shoes",
+            "Price":"800.00",
+            "image":"./assets/imges/pic9.png",
+            "category":"special"
+        }
+
+    ]
+}

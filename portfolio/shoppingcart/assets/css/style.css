@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btncart {
+    position: relative;
+    padding-right: 32px;
+}
+
+.btncart .total-count {
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 4px;
+}
+
+.product-wrapper {
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+.product-wrapper .productName {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    color: #fff;
+    opacity: 0;
+}
+
+.product-wrapper .productName h3 {
+    font-size: 1.3rem;
+}
+
+.product-wrapper .product-img {
+    overflow: hidden;
+    position: relative;
+}
+
+.product-wrapper .product-img img {
+    max-width: 100%;
+}
+
+.product-wrapper .product-img .product-action {
+    bottom: 0px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.6s ease 0s;
+    border-radius: 2px;
+}
+
+.product-wrapper .product-img .product-action .product-action-style {
+    background-color: #fff;
+    box-shadow: 0 0 8px 1.7px rgba(0, 0, 0, 0.06);
+    display: inline-block;
+    padding: 16px 2px 12px;
+    border-radius: 3px;
+}
+
+.product-wrapper .product-img .product-action .product-action-style a {
+    color: #979797;
+    line-height: 1;
+    padding: 10px 21px;
+    position: relative;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.product-wrapper .product-img .product-action .product-action-style a:hover {
+    background-color: #e1e1e1;
+    color: red;
+}
+
+.product-wrapper .product-img .product-action .product-action-style a .action-plus {
+    font-size: 18px;
+}
+
+.product-wrapper .product-img span {
+    background-color: #fff;
+    box-shadow: 0 0 8px 1.7px rgba(0, 0, 0, 0.06);
+    color: #333;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    left: 20px;
+    letter-spacing: 1px;
+    padding: 3px 12px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 45px;
+    border-radius: 3px;
+}
+
+.product-wrapper:hover .product-action {
+    bottom: 20px;
+    opacity: 1;
+}
+
+.product-wrapper:hover .productName {
+    opacity: 1;
+    bottom: 20px;
+}
+
+.dropdown-menu {
+    width: 400px;
+    background: #FFF;
+    padding: 15px;
+    box-shadow: 0px 0px 0px 2px #e4e7ed;
+    z-index: 99;
+}
+
+.dropdown-menu .card-list {
+    max-height: 180px;
+    overflow-y: scroll;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.dropdown-menu .card-list .product-widget {
+    padding: 0px;
+    position: relative;
+    box-shadow: none;
+    border: 1px solid #e1e1e1;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.dropdown-menu .card-list .product-widget .product-img {
+    position: absolute;
+    left: 6px;
+    top: 4px;
+    width: 60px;
+}
+
+.dropdown-menu .card-list .product-widget .product-img img {
+    width: 100%;
+    height: 60px;
+}
+
+.dropdown-menu .card-list .product-widget .product-body {
+    padding-left: 75px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown-menu .card-list .product-widget .product-body h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.dropdown-menu .card-list .product-widget .product-body h3 a {
+    font-weight: 700;
+}
+
+.dropdown-menu .card-list .product-widget .product-body h4 {
+    color: #2B2D42;
+    font-size: 1rem;
+}
+
+.dropdown-menu .card-list .product-widget .product-body h4 span {
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.dropdown-menu .card-list .product-widget .product-body .input-group {
+    display: flex;
+    width: auto;
+}
+
+.dropdown-menu .card-list .product-widget .product-body .input-group h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.dropdown-menu .card-list .product-widget .product-body .input-group input[type="number"] {
+    width: 46px;
+    padding: 3px;
+    text-align: center;
+    border: none;
+}
+
+.dropdown-menu .card-list .product-widget .product-body .input-group button {
+    width: 22px;
+    height: 25px;
+    padding: 0;
+    margin-top: 7px;
+}
+
+.dropdown-menu .card-list .product-widget .delete {
+    position: absolute;
+    top: -5px;
+    right: 1px;
+    height: 14px;
+    width: 14px;
+    font-size: 10px;
+    padding: 0;
+    border: none;
+    color: #ff1717;
+}
+
+.dropdown-menu .card-list .product-widget .delete i {
+    font-size: 1.2rem;
+}
+
+.dropdown-menu .cart-summary {
+    border-top: 1px solid #E4E7ED;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.dropdown-menu .cart-summary small {
+    font-size: 85%;
+}
+
+.dropdown-menu .cart-summary h5 {
+    color: #2B2D42;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+.dropdown-menu .cart-btns {
+    margin: 0px -17px -17px;
+}
+
+.dropdown-menu .cart-btns a {
+    text-decoration: none;
+    display: inline-block;
+    width: calc(50% - 0px);
+    padding: 12px;
+    background-color: #18707d;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.dropdown-menu .cart-btns a:first-child {
+    margin-right: -4px;
+    background-color: #17a2b8;
+}
+
+.dropdown-menu .cart-btns a:hover {
+    color: #a1a1a1;
+}

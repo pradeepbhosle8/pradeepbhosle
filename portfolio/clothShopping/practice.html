@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Navigation, flex, grid</title>
+    <!-- google Fonts poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+      <!-- fontAwsome fonts cdn -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/practise.css">
+</head>
+<body>
+
+   <header id="header" class="header">
+       <div class="navigation">
+           <div class="nav-center container">
+               <a href="#" class="logo">
+                   <h1>Pradeep <span>Bhosle</span></h1>
+               </a>
+               <div class="nav-menu">
+                   <div class="nav-top">
+                       <div class="logo">
+                           <h1>Pradeep <span>Bhosle</span></h1>
+                       </div>
+                   </div>
+                   <ul class="nav-list">
+                       <li><a href="" class="nav-links">Home</a></li>
+                       <li><a href="" class="nav-links">About</a></li>
+                       <li><a href="" class="nav-links">FAQ</a></li>
+                       <li><a href="" class="nav-links">Contact us</a></li>
+                   </ul>
+               </div>
+               <div class="nav_icons">
+                   <span><i class="fas fa-user"></i></span>
+                   <span><i class="fas fa-search"></i></span>
+                   <span><i class="fas fa-shopping-basket"></i></span>
+
+               </div>
+               <div class="burger">
+                   <div class="link1"></div>
+                   <div class="link2"></div>
+                   <div class="link3"></div>
+                 
+               </div>
+           </div>
+       </div>
+   </header>
+    <script>
+        console.log('WOrking script');
+
+        let navMenu = document.querySelector('.nav-menu');
+        let navigation= document.querySelector('.navigation');
+        let burger = document.querySelector('.burger');
+       
+        burger.addEventListener('click', ()=>{
+            // console.log('click working');
+            navigation.classList.toggle('show');
+            navMenu.classList.toggle('show');
+            document.body.classList.toggle('show');
+            // console.log(burger.childNodes);
+            // burger.style.backgroundColor='#fff';
+            burger.classList.toggle('toggle')
+        })
+        // burger.style.backgroundColor='transparent !important';
+
+        
+        
+    </script>
+</body>
+</html>

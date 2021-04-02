@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloth Shopping JavaScript</title>
+    
+    <!-- google Fonts poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+    <!-- fontAwsome fonts cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- Animation css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div id="pre-load">
+        <div class="loader"></div>
+    </div>
+
+    <div class="topheader">
+        <span>40% off your First Purchase </span>
+    </div>
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <nav class="navigation ">
+            <div class="nav-center container">
+               
+                    <a href="#" class="logo">
+                        <h1>PRA<span>DEE</span>P</h1>
+                    </a>
+                    
+              
+                <div class="nav-menu">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>PRA<span>DEE</span>P</h1>
+                        </div>
+                        <div class="close">
+                          <i class="fas fa-times"></i>
+                        </div>
+                      </div>
+
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link scroll-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link scroll-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link scroll-link">New</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link scroll-link">Recent</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link scroll-link">Blog</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-icons">
+                <span><i class="fas fa-user"></i></span>
+                <span><i class="fas fa-search"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+            </div>
+
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            </div>
+        </nav>
+    </header>
+    <!-- /Header -->
+
+    <main>
+        <!-- Hero -->
+        <section id="hero" class="section">
+            <div class="swiper-container">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <div class="banner">
+                          <div class="banner-content">
+                            <span>New Inspiration 2020</span>
+                            <h1>CLOTHING MADE FOR YOU!</h1>
+                            <h3>Trending from men and women style collection</h3>
+                            <div class="buttons-group">
+                              <button>shop women's</button>
+                              <button>shop men's</button>
+                            </div>
+                          </div>
+                          <img src="./assets/imges/banner_1.png" class="special_01" alt="">
+                      </li>
+
+                      <li class="swiper-slide">
+                        <div class="banner">
+                          <div class="banner-content">
+                            <span>New Inspiration 2020</span>
+                            <h1>CLOTHING MADE FOR YOU!</h1>
+                            <h3>Trending from men and women style collection</h3>
+                            <div class="buttons-group">
+                              <button>shop women's</button>
+                              <button>shop men's</button>
+                            </div>
+                          </div>
+                          <img src="./assets/imges/banner_2.png" class="special_01" alt="">
+                      </li>
+
+                      <li class="swiper-slide">
+                        <div class="banner">
+                          <div class="banner-content">
+                            <span>New Inspiration 2020</span>
+                            <h1>CLOTHING MADE FOR YOU!</h1>
+                            <h3>Trending from men and women style collection</h3>
+                            <div class="buttons-group">
+                              <button>shop women's</button>
+                              <button>shop men's</button>
+                            </div>
+                          </div>
+                          <img src="./assets/imges/banner_3.png" class="special_01" alt="">
+                      </li>
+                 
+                </ul>
+                <!-- Add Pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+                <!-- Add Arrows -->
+                <div class="swiper-button-next btn-swiper-slider"></div>
+                <div class="swiper-button-prev btn-swiper-slider"></div>
+              </div>
+        </section>
+        <!-- /Hero -->
+
+        <!-- Category -->
+        <section id="category" class="section mt5">
+            <h2>Allow your style to match your ambition</h2>
+            <div class="category-center container">
+                <div class="category-box">
+                    <img src="./assets/imges/cat1.jpg" alt="">
+                    <div class="content">
+                        <h2>SHop For Man</h2>
+                        <span>105 Products</span>
+                        <a href="">Shop Now</a>
+                    </div>
+                </div>
+                <div class="category-box">
+                    <img src="./assets/imges/cat2.jpg" alt="">
+                    <div class="content">
+                        <h2>Shop For Woman</h2>
+                        <span>166 Products</span>
+                        <a href="">Shop Now</a>
+                    </div>
+                </div>
+                <div class="category-box">
+                    <img src="./assets/imges/cat3.jpg" alt="">
+                    <div class="content">
+                        <h2>Shop For Kids</h2>
+                        <span>122 Products</span>
+                        <a href="">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Category -->
+
+        <!-- filter Products  -->
+        <section id="filterProducts" class="section ">
+     
+          <div class="title_container ">
+            <div class="section-titles">
+              <div class="filter-btn" data-id="*">
+                <span class="dot"></span>
+                <h1 class="title">All Products</h1>
+              </div>
+            </div>
+            <div class="section-titles">
+              <div class="filter-btn" data-id="trend">
+                <span class="dot"></span>
+                <h1 class="title">Trending Products</h1>
+              </div>
+            </div>
+            <div class="section-titles">
+              <div class="filter-btn" data-id="special">
+                <span class="dot"></span>
+                <h1 class="title">Special Products</h1>
+              </div>
+            </div>
+            <div class="section-titles">
+              <div class="filter-btn" data-id="featured">
+                <span class="dot"></span>
+                <h1 class="title">Featured Products</h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="products_center product_filter container">
+            
+          </div>
+
+      
+
+        </section>
+        <!-- /filter Products  -->
+
+        <!-- Grid -->
+        <section id="gallery" class="section container">
+          <figure class="gallery-item item-1">
+            <img src="./assets/imges/grid_1.jpg" alt="" class="gallery-img">
+            <div class="content">
+              <h2>Popular Products</h2>
+              <a href="">View More</a>
+            </div>
+          </figure>
+          <figure class="gallery-item item-2">
+            <img src="./assets/imges/grid_2.jpg" alt="" class="gallery-img">
+            <div class="content">
+              <h2>Winter Collections</h2>
+              <a href="">View More</a>
+            </div>
+          </figure>
+          <figure class="gallery-item item-3">
+            <img src="./assets/imges/grid_3.jpg" alt="" class="gallery-img">
+            <div class="content">
+              <h2>Summer Collections</h2>
+              <a href="">View More</a>
+            </div>
+          </figure>
+          <figure class="gallery-item item-4">
+            <img src="./assets/imges/grid_4.jpg" alt="" class="gallery-img">
+            <div class="content">
+              <h2>Up to 70% OFF Spring Sale!</h2>
+              <a href="">View More</a>
+            </div>
+          </figure>
+        </section>
+        <!-- /Grid -->
+
+        <!-- Latest Products  -->
+
+        <section id="filterProducts" class="section ">
+     
+          <div class="title_container ">
+            <div class="section-titles">
+              <div class="filter-btn" >
+                <span class="dot"></span>
+                <h1 class="title">Latest Products</h1>
+              </div>
+            </div>
+          
+          </div>
+
+          <div class="products_center product_latest container">
+            
+
+            
+            <div class="product">
+              <div class="product-img">
+                <img src="./assets/imges/pic6.png" alt="">
+              </div>
+              <div class="product-content">
+                <h3>Men Casual Shoe</h3>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <h4><i class="fas fa-rupee-sign"></i> 2400</h4>
+                </div>
+              </div>
+              <ul class="product-icon">
+                <li><a href=""> <i class="far fa-eye"></i></a></li>
+                <li><a href=""> <i class="far fa-heart"></i></a></li>
+                <li><a href=""> <i class="fas fa-shopping-cart"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="product">
+              <div class="product-img">
+                <img src="./assets/imges/pic7.png" alt="">
+              </div>
+              <div class="product-content">
+                <h3>Men Casual Shoe</h3>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <h4><i class="fas fa-rupee-sign"></i> 2400</h4>
+                </div>
+              </div>
+              <ul class="product-icon">
+                <li><a href=""> <i class="far fa-eye"></i></a></li>
+                <li><a href=""> <i class="far fa-heart"></i></a></li>
+                <li><a href=""> <i class="fas fa-shopping-cart"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="product">
+              <div class="product-img">
+                <img src="./assets/imges/pic8.png" alt="">
+              </div>
+              <div class="product-content">
+                <h3>Men Casual Shoe</h3>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <h4><i class="fas fa-rupee-sign"></i> 2400</h4>
+                </div>
+              </div>
+              <ul class="product-icon">
+                <li><a href=""> <i class="far fa-eye"></i></a></li>
+                <li><a href=""> <i class="far fa-heart"></i></a></li>
+                <li><a href=""> <i class="fas fa-shopping-cart"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="product">
+              <div class="product-img">
+                <img src="./assets/imges/pic9.png" alt="">
+              </div>
+              <div class="product-content">
+                <h3>Men Casual Shoe</h3>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <h4><i class="fas fa-rupee-sign"></i> 2400</h4>
+                </div>
+              </div>
+              <ul class="product-icon">
+                <li><a href=""> <i class="far fa-eye"></i></a></li>
+                <li><a href=""> <i class="far fa-heart"></i></a></li>
+                <li><a href=""> <i class="fas fa-shopping-cart"></i></a></li>
+              </ul>
+            </div>
+          </div>
+
+      
+
+        </section>
+        <!-- /Latest Products  -->
+
+        <!-- Recent View Products  -->
+        <section id="filterProducts" class="section ">
+     
+          <div class="title_container ">
+            <div class="section-titles">
+              <div class="filter-btn" >
+                <span class="dot"></span>
+                <h1 class="title">Recent View Products</h1>
+              </div>
+            </div>
+          
+          </div>
+
+          <div class="products_center product_recent container">
+            
+
+            
+            <div class="product">
+              <div class="product-img">
+                <img src="./assets/imges/pic6.png" alt="">
+              </div>
+              <div class="product-content">
+                <h3>Men Casual Shoe</h3>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <h4><i class="fas fa-rupee-sign"></i> 2400</h4>
+                </div>
+              </div>
+              <ul class="product-icon">
+                <li><a href=""> <i class="far fa-eye"></i></a></li>
+                <li><a href=""> <i class="far fa-heart"></i></a></li>
+                <li><a href=""> <i class="fas fa-shopping-cart"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="product">
+              <div class="product-img">
+                <img src="./assets/imges/pic7.png" alt="">
+              </div>
+              <div class="product-content">
+                <h3>Men Casual Shoe</h3>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <h4><i class="fas fa-rupee-sign"></i> 2400</h4>
+                </div>
+              </div>
+              <ul class="product-icon">
+                <li><a href=""> <i class="far fa-eye"></i></a></li>
+                <li><a href=""> <i class="far fa-heart"></i></a></li>
+                <li><a href=""> <i class="fas fa-shopping-cart"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="product">
+              <div class="product-img">
+                <img src="./assets/imges/pic8.png" alt="">
+              </div>
+              <div class="product-content">
+                <h3>Men Casual Shoe</h3>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <h4><i class="fas fa-rupee-sign"></i> 2400</h4>
+                </div>
+              </div>
+              <ul class="product-icon">
+                <li><a href=""> <i class="far fa-eye"></i></a></li>
+                <li><a href=""> <i class="far fa-heart"></i></a></li>
+                <li><a href=""> <i class="fas fa-shopping-cart"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="product">
+              <div class="product-img">
+                <img src="./assets/imges/pic9.png" alt="">
+              </div>
+              <div class="product-content">
+                <h3>Men Casual Shoe</h3>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <h4><i class="fas fa-rupee-sign"></i> 2400</h4>
+                </div>
+              </div>
+              <ul class="product-icon">
+                <li><a href=""> <i class="far fa-eye"></i></a></li>
+                <li><a href=""> <i class="far fa-heart"></i></a></li>
+                <li><a href=""> <i class="fas fa-shopping-cart"></i></a></li>
+              </ul>
+            </div>
+          </div>
+
+      
+
+        </section>
+        <!-- /Recent View Products  -->
+
+        <!-- footer  -->
+        <footer id="footer" class="section footer">
+          <div class="container">
+            <div class="footer-container">
+            <div class="footer-center">
+              <h3>Lorem</h3>
+              <a href="">Lorem</a>
+              <a href="">Gifts</a>
+              <a href="">Affilate</a>
+              <a href="">Site Map</a>
+              <a href="">Lorem</a>
+            </div>
+
+            <div class="footer-center">
+              <h3>Information</h3>
+              <a href="">About us</a>
+              <a href="">Privacy Policy</a>
+              <a href="">Terms & Conditions</a>
+              <a href="">Contact us</a>
+              <a href="">Lorem</a>
+            </div>
+
+            <div class="footer-center">
+              <h3>My Account</h3>
+              <a href="">Lorem</a>
+              <a href="">Lorem</a>
+              <a href="">Lorem</a>
+              <a href="">Lorem</a>
+              <a href="">Lorem</a>
+            </div>
+
+            <div class="footer-center">
+              <h3>Contact us</h3>
+             <div>
+               <i class="fas fa-map-marker-alt"></i>
+               Lorem ipsum dolor sit amet.
+             </div>
+
+             <div>
+               <i class="far fa-envelope"></i>
+               pradeep@gmail.com
+             </div>
+
+             <div>
+               <i class="fas fa-phone"> </i>
+               +91 999999 9999
+             </div>
+
+
+
+            </div>
+          </div>
+          </div>
+        </footer>
+        <!-- /footer  -->
+
+    
+
+    </main>
+    
+
+
+    <!-- scripts -->
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/products.js"></script>
+
+    <script type="module">
+        import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+      
+        const swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      autoplay: {
+    
+    delay: 3000,
+    disableOnInteraction: false,
+    }
+    , loop: true,
+      
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 1,
+          spaceBetween: 50,
+        },
+      }
+    })
+
+      
+      </script>
+
+
+</body>
+</html>
