@@ -1216,3 +1216,7 @@ button.btn.btn-info {
     height: 4.375rem;
     width: 100%;
 }
+.slider-container{
+    overflow: hidden;
+}
+
