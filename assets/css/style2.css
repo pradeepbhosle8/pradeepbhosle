@@ -85,13 +85,13 @@ body {
 
 .btn-secondary {
     background: transparent;
-    border: 2px solid #00bcd4;
+    border: 2px solid #014a66;
     color: #7a7a7a;
     transition: all .3s ease;
 }
 
 .btn-secondary:hover {
-    background: #00bcd4;
+    background: #014a66;
     color: #000;
 }
 
@@ -108,7 +108,7 @@ section {
 }
 
 #header {
-    background-color: #00bcd4;
+    background-color: #014a66;
     border-bottom: 1px solid #e1e1e1;
     position: fixed;
     width: 100%;
@@ -137,7 +137,7 @@ section {
 
 .hero-bannerBoot .left h6 {
     font-size: 1.6rem;
-    color: #00bcd4;
+    color: #014a66;
     font-weight: 400;
     margin-bottom: 0.5rem;
 }
@@ -150,7 +150,7 @@ section {
 }
 
 .hero-bannerBoot .left h1 span {
-    color: #00bcd4;
+    color: #014a66;
 }
 
 .hero-bannerBoot .left p {
@@ -173,7 +173,7 @@ section {
 
 .hero-bannerBoot .right .personal-info h2 {
     font-size: 1.6rem;
-    color: #00bcd4;
+    color: #014a66;
     font-weight: 400;
     margin-bottom: 0.5rem;
 }
@@ -211,7 +211,7 @@ section {
 
 .hero-bannerBoot .right .social-icon ul li a {
     text-decoration: none;
-    color: #00bcd4;
+    color: #014a66;
     font-size: 20px;
 }
 
@@ -248,7 +248,7 @@ section {
     font-weight: 600;
     line-height: 1.2;
     margin-bottom: 1rem;
-    color: #00bcd4;
+    color: #014a66;
     text-transform: uppercase;
 }
 
@@ -278,7 +278,7 @@ section {
     content: '';
     width: 1px;
     height: 100vh;
-    background-color: #00bcd4;
+    background-color: #014a66;
     position: absolute;
     top: 38px;
     left: 26px;
@@ -290,7 +290,7 @@ section {
     -webkit-transition: height 0.6s ease;
     -o-transition: height 0.6s ease;
     transition: height 0.6s ease;
-    background-color: #00bcd4;
+    background-color: #014a66;
 }
 
 .skillsBoot .right .skill-slider .sr-only {
@@ -311,14 +311,14 @@ section {
     position: absolute;
     left: 0;
     top: 0;
-    color: #00bcd4;
+    color: #014a66;
 }
 
 .skillsBoot .right .skill-slider .label:before {
     content: '';
     width: 10px;
     height: 10px;
-    background-color: #00bcd4;
+    background-color: #014a66;
     border-radius: 50%;
     position: absolute;
     top: 31px;
@@ -326,7 +326,7 @@ section {
 }
 
 .exprienceBoot {
-    background-color: #00bcd4;
+    background-color: #014a66;
 }
 
 .exprienceBoot h1 {
@@ -375,7 +375,7 @@ section {
     font-weight: bold;
     text-align: center;
     font-size: 1.1rem;
-    color: #00bcd4;
+    color: #014a66;
     margin-top: 6px;
     background: #f3f3f3;
     padding: 5px;
@@ -389,7 +389,7 @@ section {
 
 .exprienceBoot .exprience-list .card .content p i {
     margin-right: 5px;
-    color: #00bcd4;
+    color: #014a66;
 }
 
 .exprienceBoot .exprience-list .card .content p a {
@@ -414,7 +414,7 @@ section {
 }
 
 .exprienceBoot .exprience-list .card .content .tags span {
-    border: 1px solid #00bcd4;
+    border: 1px solid #014a66;
     border-radius: 20px;
     padding: 6px;
     font-size: 14px;
@@ -549,7 +549,7 @@ section {
     font-weight: 500;
     border-radius: 5px;
     background-color: #00c9ff;
-    color: #000;
+    color: #fff;
     font-size: 1.2rem;
     padding-left: 15px;
     padding-right: 15px;
@@ -849,7 +849,7 @@ section {
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 2em;
-    color: #00bcd4;
+    color: #014a66;
 }
 
 .portfolio-modal .modal-content p {
@@ -980,7 +980,7 @@ button.btn.btn-info {
 #contactus article header h2 span {
     display: block;
     font-size: 80px;
-    color: #00bcd4;
+    color: #014a66;
     padding-bottom: 15px;
 }
 
@@ -1020,7 +1020,7 @@ button.btn.btn-info {
     width: 100%;
     display: block;
     outline: none;
-    border-bottom: 1px solid #00bcd4;
+    border-bottom: 1px solid #014a66;
     background-color: inherit;
     color: #404040;
     font-size: 21px;
@@ -1035,7 +1035,7 @@ button.btn.btn-info {
     width: 100%;
     display: block;
     outline: none;
-    border-bottom: 1px solid #00bcd4;
+    border-bottom: 1px solid #014a66;
     background-color: inherit;
     color: #404040;
     font-size: 21px;
@@ -1059,7 +1059,7 @@ button.btn.btn-info {
     color: #FFF;
     font-weight: 800;
     letter-spacing: 2px;
-    background-color: #00bcd4;
+    background-color: #014a66;
     margin: 41px auto;
     margin-bottom: 0;
 }
@@ -1071,7 +1071,7 @@ button.btn.btn-info {
     right: 20px;
   /* display: none; */
     color: #fff;
-    background-color: #00bcd4;
+    background-color: #014a66;
     border: 1px solid #000;
     padding: 3px 8px;
     z-index: 9;
@@ -1099,7 +1099,7 @@ button.btn.btn-info {
 }
 
 .bgfooter {
-    background-color: #00bcd4;
+    background-color: #014a66;
 }
 
 .fdb-block .container {
