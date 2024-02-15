@@ -188,6 +188,13 @@ header nav .left .logo img {
     margin-bottom: 0.5rem;
 }
 
+.hero-banner .hero .right .personal-info h3 {
+    font-size: 1.2rem;
+    color: #00bcd4;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
 .hero-banner .hero .right .personal-info ul {
     margin: 0;
     padding: 0;

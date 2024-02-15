@@ -49,6 +49,9 @@ body {
     flex: 2;
 }
 
+.dkblue{
+    color: #014a66;
+}
 .btn {
     padding: 10px 15px;
     font-size: 13px;
@@ -149,6 +152,7 @@ section {
     margin-bottom: 1rem;
 }
 
+
 .hero-bannerBoot .left h1 span {
     color: #014a66;
 }
@@ -173,6 +177,13 @@ section {
 
 .hero-bannerBoot .right .personal-info h2 {
     font-size: 1.6rem;
+    color: #014a66;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.hero-bannerBoot .right .personal-info h3 {
+    font-size: 1.5rem;
     color: #014a66;
     font-weight: 400;
     margin-bottom: 0.5rem;
@@ -250,6 +261,17 @@ section {
     margin-bottom: 1rem;
     color: #014a66;
     text-transform: uppercase;
+}
+
+.skillsBoot ul{
+    width: 559px;
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    padding: 0px;
+    margin: 0;
+    line-height: 32px;
 }
 
 .skillsBoot .right .skill-slider {
